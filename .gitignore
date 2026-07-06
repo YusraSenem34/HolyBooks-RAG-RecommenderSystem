@@ -1,0 +1,21 @@
+# API keys — never push
+.env
+
+# Vector database — large, regenerated locally
+chroma_db/
+
+# Raw datasets — downloaded from original sources
+data/
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Torah download cache (if it exists)
+data/.torah_cache.json
