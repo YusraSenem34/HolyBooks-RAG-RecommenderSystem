@@ -92,7 +92,7 @@ sacred_texts_rag/
 
 ### Torah download + conversion scenario
 The MarkBuffalo/gen-tanakh dataset does not offer a direct CSV download.
-The user downloaded the raw JSON file from:
+I downloaded the raw JSON file from:
   https://raw.githubusercontent.com/MarkBuffalo/gen-tanakh/main/tanakh.json
 ...and converted it to CSV manually using pandas:
 
@@ -249,7 +249,7 @@ Out of scope (handled gracefully):
 | v1.0 | Initial build — Bible, Quran, Torah, Gita · ChromaDB · Groq Llama 3.3 70B · Streamlit UI |
 | v1.1 | Torah downloader: retry logic + chapter-level resume cache |
 | v1.2 | Switched all sources to verse-level CSV/JSON datasets. Torah → MarkBuffalo/gen-tanakh. Gita → Aabi0207/Bhagavad-Gita-GPT |
-| v1.3 | Torah JSON→CSV conversion scenario added. All 4 files confirmed manually downloaded by user |
+| v1.3 | Torah JSON→CSV conversion scenario added. All 4 files confirmed manually downloaded by me |
 | v1.4 | Embed `English Translation` columns for all books. All 4 datasets ready — 02_build_index.py next |
 | v1.5 | Use the original texts as metadata. For Gita, add `WordMeaning`  column too. All column/metadata decisions finalised |
 | v1.6 | Index builder explanation added to docs. Post-indexing next steps documented |
